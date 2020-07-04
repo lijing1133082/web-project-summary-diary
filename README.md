@@ -2,10 +2,10 @@
 
 ### web-project-summary-diary/web目录
 
-1、git-command.md  Git常用的命令
+1、Git常用的命令：  git-command.md
 
-2、http-code.md  http状态码
+2、http状态码： http-code.md
 
-3、vscode-shortcut.md  VScode快捷键
+3、VScode快捷键： vscode-shortcut.md
 
-4、web-tools.md  前端开发相关内容
+4、前端开发相关内容：  web-tools.md
