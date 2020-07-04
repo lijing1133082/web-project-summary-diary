@@ -20,6 +20,4 @@
 
 10、AntDesign UI框架：https://ant.design/docs/react/getting-started-cn
 
-11、CSS属性浏览器的支持情况查询：http://www.caniuse.com
-
-12、swiper插件： http://www.swiper.com
+11、CSS属性浏览器的支持情况查询：https://www.caniuse.com/
