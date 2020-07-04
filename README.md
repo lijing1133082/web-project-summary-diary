@@ -1,6 +1,6 @@
 # web-project-summary-diary
 
-### web-project-summary-diary/web目录
+### web-project-summary-diary/web
 
 
 1、Git常用的命令：  git-command.md
