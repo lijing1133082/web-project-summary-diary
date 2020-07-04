@@ -11,3 +11,8 @@
 5、Git常用命令：https://github.com/xjh22222228/git-manual
 
 6、字体图标库（Iconfont）：https://www.iconfont.cn/plus
+
+7、界面设计尺寸规范：https://www.25xt.com/appdesign/10302.html
+
+8、APP设计尺寸规范大全：https://www.25xt.com/appsize
+
