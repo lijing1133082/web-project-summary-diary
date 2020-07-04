@@ -1,9 +1,11 @@
 # web-project-summary-diary
 
-1、Git常用的命令: git-command.md
+## web-project-summary-diary/web目录
 
-2、http状态码: http-code.md
+1、git-command.md  Git常用的命令:
 
-3、VScode快捷键: vscode-shortcut.md
+2、http-code.md  http状态码
 
-4、前端开发: web-tools.md
+3、vscode-shortcut.md  VScode快捷键
+
+4、web-tools.md  前端开发相关内容
