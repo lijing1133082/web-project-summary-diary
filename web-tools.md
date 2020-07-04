@@ -22,7 +22,7 @@
 
 11、AntDesign UI框架：https://ant.design/docs/react/getting-started-cn
 
-12、Vue 框架： https://github.com/vuejs/vue
+12、Vue.js 前端框架： https://github.com/vuejs/vue
 
 13、各浏览器CSS属性支持情况：https://www.caniuse.com/
 
