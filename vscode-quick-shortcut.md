@@ -1,13 +1,5 @@
 ## VSCode快捷键
 
-Ctrl+Shift+P,F1 展示全局命令面板
-
-Ctrl+P 快速打开最近打开的文件
-
-Ctrl+Shift+N 打开新的编辑器窗口
-
-Ctrl+Shift+W 关闭编辑器
-
 Ctrl + X 剪切
 
 Ctrl + C 复制
@@ -16,33 +8,16 @@ Ctrl + C 复制
 
 #### Shift + Alt up/down 在当前行上下复制当前行
 
-Ctrl + Shift + K 删除行
-
-Ctrl + Enter 在当前行下插入新的一行
-
-Ctrl + Shift + Enter 在当前行上插入新的一行
-
-Ctrl + Shift + | 匹配花括号的闭合处，跳转
-
-Ctrl + ] 或 [ 行缩进
-
 #### Home 光标跳转到行头
 
 #### End 光标跳转到行尾
 
-#### Ctrl + Home 跳转到页头
+
+Ctrl + Home 跳转到页头
 
 #### Ctrl + End 跳转到页尾
 
-Ctrl + up/down 行视图上下偏移
-
-Alt + PgUp/PgDown 屏视图上下偏移
-
-Ctrl + Shift + [ 折叠区域代码
-
-Ctrl + Shift + ] 展开区域代码
-
-Ctrl + / 添加关闭行注释
+### Ctrl + / 添加关闭行注释
 
 Shift + Alt +A 块区域注释
 
