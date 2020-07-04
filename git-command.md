@@ -2,30 +2,30 @@
 
 1、git clone 远程仓库地址
 
-2、git branch 查看当前分支
+2、git init 初始化本地仓库
 
-3、git branch -a 查看所有分支
+3、git branch 查看当前分支
 
-4、git branch -r 查看远程分支
+4、git branch -a 查看所有分支
 
-5、git pull (拉取远程分支代码 git fetch + get merge)
+5、git branch -r 查看远程分支
 
-6、git add * 将本地仓库所有文件添加到暂存区 （*表示当前目录下所有的文件）
+6、git pull (拉取远程分支代码 git fetch + get merge)
 
-7、git commit -m "*" 将暂存区代码提交到git仓库
+7、git add * 将本地仓库所有文件添加到暂存区 （*表示当前目录下所有的文件）
 
-8、git push 将git仓库代码推送到远程仓库
+8、git commit -m "*" 将暂存区代码提交到git仓库
 
-9、git log 查看提交日志
+9、git push 将git仓库代码推送到远程仓库
 
-10、git status 查看当前分支状态
+10、git log 查看提交日志
 
-11、git checkout branch_name 切换到[branch_name]分支
+11、git status 查看当前分支状态
 
-12、git merge other_branch_name 当前分支合并[other_branch_name]分支的代码
+12、git checkout branch_name 切换到[branch_name]分支
 
-13、git checkout -b "master-bug" 在当前的主分支,创建并切换到新的[master-bug]分支
+13、git merge other_branch_name 当前分支合并[other_branch_name]分支的代码
 
-14、git init 初始化本地仓库
+14、git checkout -b "master-bug" 在当前的分支创建一个[master-bug]分支，并切换到这个新分支
 
 15、git diff 对比工作区和暂存区的差异
