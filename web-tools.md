@@ -25,3 +25,5 @@
 12、Vue框架： https://github.com/vuejs/vue
 
 13、CSS属性浏览器的支持情况查询：https://www.caniuse.com/
+
+14、蓝湖（产品设计协作平台）：https://lanhuapp.com/
