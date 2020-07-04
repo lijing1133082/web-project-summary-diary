@@ -22,8 +22,8 @@
 
 11、git checkout branch_name 切换到[branch_name]分支
 
-12、git merge branch_name_other 当前分支合并[branch_name_other]分支的代码
+12、git merge other_branch_name 当前分支合并[other_branch_name]分支的代码
 
-13、git checkout -b  "master-bug" 当前的主分支创建一个[master-bug]分支，并切换到[master-bug]分支
+13、git checkout -b  "master-bug" 在当前的主分支,创建并切换到新的[master-bug]分支
 
 14、git init 初始化本地仓库
