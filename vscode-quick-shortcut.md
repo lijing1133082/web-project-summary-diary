@@ -1,5 +1,7 @@
 ### VSCode快捷键
 
+F2 重命名符号
+
 Alt + up/down 移动行上下
 
 Shift + Alt up/down 在当前行上下复制当前行
@@ -19,5 +21,3 @@ Shift + Alt +A 块区域注释
 Ctrl + P 跳转文件
 
 Ctrl + F/H 查询/替换
-
-F2 重命名符号
