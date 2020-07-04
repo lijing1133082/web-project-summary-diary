@@ -7,3 +7,5 @@
 3、前端资源图谱：https://juejin.im/entry/5aed48c55188251b80158a5b
 
 4、Git生成公钥：https://www.cnblogs.com/doubleLWithiOS/p/4937363.html
+
+5、Git常用命令：https://github.com/xjh22222228/git-manual
