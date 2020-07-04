@@ -1,5 +1,5 @@
 /**
- * coordinate tool
+ *
  * WGS84 => gcj02
  * gcj02 => WGS84
  */
