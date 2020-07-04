@@ -28,4 +28,4 @@
 
 14、蓝湖（产品设计协作平台）：https://lanhuapp.com/
 
-15、UI网站合集：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
+15、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
