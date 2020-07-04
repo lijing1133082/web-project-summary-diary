@@ -22,4 +22,6 @@
 
 11、AntDesign UI框架：https://ant.design/docs/react/getting-started-cn
 
-12、CSS属性浏览器的支持情况查询：https://www.caniuse.com/
+12、Vue框架： https://github.com/vuejs/vue
+
+13、CSS属性浏览器的支持情况查询：https://www.caniuse.com/
