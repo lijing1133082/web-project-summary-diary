@@ -16,3 +16,4 @@
 
 8、APP设计尺寸规范大全：https://www.25xt.com/appsize
 
+9、项目部署工具（Mobaxterm）：https://www.cnblogs.com/cainiao-chuanqi/p/11366726.html#autoid-0-0-0 （使用教程）
