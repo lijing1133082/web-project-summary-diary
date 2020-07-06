@@ -29,3 +29,9 @@
 14、git checkout -b "master-bug" 在当前的分支创建一个[master-bug]分支，并切换到这个新分支
 
 15、git diff 对比工作区和暂存区的差异
+
+16、git reset --hard HEAD^ 回退到上一个版本
+
+17、git reset --hard a1b3 回退到指定的版本（a1b3表示回退版本的前几位）
+
+18、git reflog 查看仓库的操作历史
