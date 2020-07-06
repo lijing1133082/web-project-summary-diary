@@ -20,14 +20,16 @@
 
 10、AntDesign UI框架：https://ant.design/docs/react/getting-started-cn
 
-11、Vue.js 前端框架： https://github.com/vuejs/vue
+11、Vue.js 前端框架：https://github.com/vuejs/vue
 
-12、各浏览器CSS属性支持情况：https://www.caniuse.com/
+12、React.js 前端框架：https://react.docschina.org/docs/getting-started.html
 
-13、产品设计协作平台--蓝湖：https://lanhuapp.com/
+13、各浏览器CSS属性支持情况：https://www.caniuse.com/
 
-14、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
+14、产品设计协作平台--蓝湖：https://lanhuapp.com/
 
-15、在线图片压缩工具：http://tinypng.com
+15、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
 
-16、草料二维码生成器： https://cli.im/
+16、在线图片压缩工具：http://tinypng.com
+
+17、草料二维码生成器： https://cli.im/
