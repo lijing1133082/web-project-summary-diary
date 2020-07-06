@@ -24,12 +24,14 @@
 
 12、React.js 前端框架：https://react.docschina.org/docs/getting-started.html
 
-13、各浏览器CSS属性支持情况：https://www.caniuse.com/
+13、ElementUI 框架：https://element.eleme.cn/#/zh-CN/component/quickstart
 
-14、产品设计协作平台--蓝湖：https://lanhuapp.com/
+14、各浏览器CSS属性支持情况：https://www.caniuse.com/
 
-15、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
+15、产品设计协作平台--蓝湖：https://lanhuapp.com/
 
-16、在线图片压缩工具：http://tinypng.com
+16、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
 
-17、草料二维码生成器： https://cli.im/
+17、在线图片压缩工具：http://tinypng.com
+
+18、草料二维码生成器： https://cli.im/
