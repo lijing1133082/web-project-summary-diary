@@ -23,7 +23,11 @@ class PointLayer extends React.Component {
         console.log(pointId);
     }
     render(){
-        
+        return (
+            <div>
+                {pointId}
+            </div>
+        )
     }
 };
 
