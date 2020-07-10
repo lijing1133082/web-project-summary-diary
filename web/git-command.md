@@ -30,7 +30,7 @@
 
 15、git diff 对比工作区和暂存区的差异
 
-16、git reset --hard HEAD^ 回退到上一个版本
+16、git reset --hard HEAD^ 回退到上一个版本(^表示回退当前版本到历史版本的个数)
 
 17、git reset --hard a1b3 回退到指定的版本（a1b3表示回退版本的前几位）
 
