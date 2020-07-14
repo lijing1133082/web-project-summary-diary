@@ -44,6 +44,7 @@
 
 
 /*生成git公钥*/
+
 1、git config --global user.name "your_name"
 2、git config --global user.email "your_email@example.com"
 3、ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
