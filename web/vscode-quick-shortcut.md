@@ -17,3 +17,5 @@ Shift + Alt +A 块区域注释
 Ctrl + P 跳转文件
 
 Ctrl + F/H 查询/替换
+
+Ctrl + Shift + X  调出安装VSCode插件窗口
