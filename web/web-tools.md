@@ -32,12 +32,12 @@
 
 16、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
 
-17、在线图片压缩工具：http://tinypng.com
+17、Vue相关内容：https://www.jb51.cc/vue/index_1.html（脚本之家：1-87页）
 
-18、草料二维码生成器：https://cli.im/
+18、uni-app 快速上手: https://uniapp.dcloud.io/quickstart
 
-19、Vue相关内容：https://www.jb51.cc/vue/index_1.html（脚本之家：1-87页）
+19、前端开发文档手册：https://www.bookstack.cn/ 
 
-20、uni-app 快速上手: https://uniapp.dcloud.io/quickstart
+20、在线图片压缩工具：http://tinypng.com
 
-21、前端开发文档手册：https://www.bookstack.cn/ 
+21、草料二维码生成器：https://cli.im/
