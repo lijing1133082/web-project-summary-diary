@@ -8,6 +8,6 @@
 
 3、uni-app相关内容： uni-app-diary.md
 
-3、VScode快捷键： vscode-shortcut.md
+4、VScode快捷键： vscode-shortcut.md
 
-4、前端开发相关内容：  web-tools.md
+5、前端开发相关内容：  web-tools.md
