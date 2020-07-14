@@ -3,7 +3,7 @@
 1、生命周期
 
     1) 页面生命周期 App.vue
-    
+
     <script>
         export default {
             onLaunch: function(){
@@ -43,9 +43,28 @@
 
             },
             components:{ //组件
-
+                
             }
         }
     </script>
+
+2、发送请求
+    uni.request({
+        url: 'url请求地址',
+        method: 'POST',
+        data: {
+            'name' : '123'
+        },
+        header:{
+            'content-type': 'application/json'
+        },
+        success: (res) => {
+
+        },
+        fail: (err) => {
+
+        }
+    });
+
 
 
