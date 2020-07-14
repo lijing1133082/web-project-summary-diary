@@ -43,7 +43,7 @@
 
             },
             components:{ //组件
-                
+
             }
         }
     </script>
@@ -66,5 +66,34 @@
         }
     });
 
+3、路由跳转
 
+    1) 保留当前页面，跳转到应用内的某个页面，使用uni.navigateBack可以返回到原页面：
+    
+    uni.navigateTo({
+        url: '/pages/detail?id=123&name=uniapp',
+        success: (res) =>{
 
+        },
+        fail: (err) => {
+
+        },
+        complete: () => {
+
+        }
+    });
+
+    2) 关闭当前页面，跳转到应用内的某个页面
+
+    uni.redirectTo({
+        url: '',
+        succss: (res) => {
+
+        },
+        fail: (err) => {
+
+        },
+        complete: () => {
+
+        }
+    });
