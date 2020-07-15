@@ -2,7 +2,7 @@
 
 ### web目录
 
-1、打包成apk流程： apk-package-process.md
+1、android-apk打包流程： apk-package-process.md
 
 2、cmd常用命令： cmd-command.md
 
