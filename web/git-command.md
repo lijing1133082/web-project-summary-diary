@@ -42,6 +42,10 @@
 
 19、q 退出当前git命令终端
 
+20、git branch -D branch_name 删除本地[branch_name]分支
+
+21、git push origin --delete remote_branch_name 删除远程[remote_branch_name]分支
+
 
 /*生成git公钥*/
 
