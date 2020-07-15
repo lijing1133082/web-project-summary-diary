@@ -18,7 +18,7 @@
 
 9、git add * 将本地仓库所有文件添加到暂存区 （*表示当前目录下所有的文件）
 
-10、git commit -m "*" 将暂存区代码提交到git仓库
+10、git commit -m " * " 将暂存区代码提交到git仓库 (*可以替换为提交到git仓库的一些改动内容信息）
 
 11、git push 将git仓库代码推送到远程仓库
 
@@ -40,11 +40,11 @@
 
 18、git reflog 查看仓库的操作历史
 
-19、q 退出当前git命令终端
+19、git branch -D branch_name 删除本地[branch_name]分支
 
-20、git branch -D branch_name 删除本地[branch_name]分支
+20、git push origin -d remote_branch_name 删除远程[remote_branch_name]分支
 
-21、git push origin -d remote_branch_name 删除远程[remote_branch_name]分支
+21、q 退出当前git命令终端
 
 
 /*生成git公钥*/
