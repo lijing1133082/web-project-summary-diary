@@ -23,3 +23,5 @@ Ctrl + Shift + X  切换到左侧安装VSCode插件面板
 Ctrl + Shift + G  切换到左侧提交git仓库面板
 
 Ctrl + Shift + F 切换到左侧检索内容面板
+
+Ctrl + Shift + E 切换到左侧项目目录结构面板
