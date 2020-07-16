@@ -18,8 +18,8 @@ Ctrl + P 跳转文件
 
 Ctrl + F/H 查询/替换
 
-Ctrl + Shift + X  切换到安装VSCode插件的左侧菜单栏
+Ctrl + Shift + X  切换到左侧安装VSCode插件面板
 
-Ctrl + Shift + G  切换到提交git仓库的左侧菜单栏
+Ctrl + Shift + G  切换到左侧提交git仓库面板
 
-Ctrl + Shift + F 切换到检索内容的左侧菜单栏
+Ctrl + Shift + F 切换到左侧检索内容面板
