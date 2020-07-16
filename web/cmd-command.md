@@ -8,3 +8,4 @@
 8、ipconfig 查看本机ip地址
 9、Window + R 打开命令窗口输入框
 10、Window + L 锁定屏幕
+11、cd . > a.txt 在当前目录下创建一个名为[a.txt]的文件
