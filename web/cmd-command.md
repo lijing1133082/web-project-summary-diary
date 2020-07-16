@@ -1,4 +1,4 @@
-1、mkdir 目录名称 创建目录
+1、mkdir filename 当前路径下创建一个[filename]新目录
 2、dir 查看当前目录下的文件
 3、d: 切换到D盘
 4、cd . 当前目录
