@@ -25,3 +25,7 @@ Ctrl + Shift + G  切换到左侧提交git仓库面板
 Ctrl + Shift + F 切换到左侧检索内容面板
 
 Ctrl + Shift + E 切换到左侧项目目录结构面板
+
+Ctrl + Shift + C 调出命令窗口
+
+Ctrl + Shift + N 新建窗口
