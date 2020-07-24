@@ -29,3 +29,5 @@ Ctrl + Shift + E 切换到左侧项目目录结构面板
 Ctrl + Shift + C 调出命令窗口
 
 Ctrl + Shift + N 新建窗口
+
+Ctrl + Shift + ~ 打开VSCode终端命令行
