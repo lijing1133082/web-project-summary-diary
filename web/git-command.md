@@ -56,3 +56,7 @@
 1、git config --global user.name "your_name"
 2、git config --global user.email "your_email@example.com"
 3、ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+备注：
+
+1、拉取分支（git pull）代码出现以下错误提示: ssh: Could not resolve hostname gitlab.git地址.com: Name or service not known  fatal: Could not read from remote repository.时，可以看一下本地host文件（目录：C:\Windows\System32\drivers\etc\hosts）是否配置正确；
