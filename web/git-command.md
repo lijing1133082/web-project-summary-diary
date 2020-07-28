@@ -50,6 +50,10 @@
 
 23、git diff c1d2c3 d23421 -- web/git-command.md  比较c1d2c3和d23421这两个版本[web/git-command.md]文件的差异
 
+24、git log -p 显示每次提交内容之间的差异
+
+25、git log -p -3 查看最近3次提交内容的差异
+
 
 /*生成git公钥*/
 
