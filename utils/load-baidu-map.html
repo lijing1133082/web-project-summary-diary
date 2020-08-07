@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+<script type="text/javascript" src="./coordinateUtils.js"></script>
+<script type="text/javascript"> 
+    function map_load(){
+        var load = document.createElement("script");
+        load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";
+        document.body.appendChild(load);
+    }
+    function map_init(){
+        map = new BMap.Map("map");
+        var point = new BMap.Point(currentLon, currentLat);
+        map.centerAndZoom(point,14);
+    }
+
+    var map;
+    var currentLon = 116.390814; //默认经纬度
+    var currentLat = 39.915811;
+    var coord = new CoordUtils();
+	var lnglat = coord.gcj02tobd09(currentLon, currentLat);
+        currentLon = lnglat[0];
+        currentLat = lnglat[1];
+	var lnglat2 = coord.wgs84togcj02(currentLon, currentLat);
+		currentLon = lnglat2[0];
+		currentLat = lnglat2[1];
+    
+    window.onload = map_load;
+</script>
+</html>
