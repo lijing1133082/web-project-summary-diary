@@ -7,10 +7,12 @@ class PointLayer extends React.Component {
             pointId: ''
         }
     }
+    
     componentDidMount(){
         this.getLayerInfoList();
     }
-    setLayerInfoList(){
+
+    setLayerInfoList = () => {
         let id = 'point_186';
         this.setState({
             pointId: id
@@ -18,12 +20,13 @@ class PointLayer extends React.Component {
             this.getLayerInfoList();
         });
     }
-    getLayerInfoList(){
-        const {pointId} = this.state;
-        console.log(pointId);
+
+    getLayerInfoList= () => {
+        console.log("getLayerInfoList");
     }
+
     render(){
-        let {pointId} = this.state;
+        const {pointId} = this.state;
         return (
             <div>
                 {pointId}
