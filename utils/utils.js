@@ -1,10 +1,3 @@
-//获取地址栏参数
-let getParameter = (param) => {
-    var re = new RegExp("(^|&)" + param + "=([^&]*)(&|$)");
-    var result = window.location.search.substr(1).match(re);
-    return (result == null) ? null : unescape(result[2]);
-}
-
 //生成随机字符串
 let randomString = (len) => {
     if (!len) {
@@ -19,7 +12,14 @@ let randomString = (len) => {
     return str;
 }
 
+//获取地址栏参数
+let getParameter = (param) => {
+    var re = new RegExp("(^|&)" + param + "=([^&]*)(&|$)");
+    var result = window.location.search.substr(1).match(re);
+    return (result == null) ? null : unescape(result[2]);
+}
+
 export {
-    getParameter,
-    randomString
+    randomString,
+    getParameter
 }
