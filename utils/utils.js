@@ -5,6 +5,7 @@ let getParameter = (param) => {
     return (result == null) ? null : unescape(result[2]);
 }
 
+//生成随机字符串
 let randomString = (len) => {
     if (!len) {
         len = 32;
