@@ -21,6 +21,7 @@
         load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";
         document.body.appendChild(load);
     }
+
     function map_init(){
         map = new BMap.Map("map");
         var point = new BMap.Point(currentLon, currentLat);
@@ -32,11 +33,9 @@
     var currentLat = 39.915811;
     var coord = new CoordUtils();
 	var lnglat = coord.gcj02tobd09(currentLon, currentLat);
-        currentLon = lnglat[0];
-        currentLat = lnglat[1];
-	var lnglat2 = coord.wgs84togcj02(currentLon, currentLat);
+	var lnglat2 = coord.wgs84togcj02(lnglat[0], lnglat[1]);
 		currentLon = lnglat2[0];
-		currentLat = lnglat2[1];
+        currentLat = lnglat2[1];
     
     window.onload = map_load;
 </script>
