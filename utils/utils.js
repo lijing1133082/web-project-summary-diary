@@ -19,7 +19,14 @@ let getParameter = (param) => {
     return (result == null) ? null : unescape(result[2]);
 }
 
+let getRootPath = () => {
+	var pathName = window.document.location.pathname
+	var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1)
+	return projectName
+}
+
 export {
     randomString,
-    getParameter
+    getParameter,
+    getRootPath
 }
