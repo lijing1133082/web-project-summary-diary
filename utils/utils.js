@@ -22,7 +22,7 @@ let getParameter = (param) => {
 //判断是否为微信浏览器
 let isWexin = () => {
     var ua = navigator.userAgent.toLowerCase();
-    return ua.match(/MicroMessenger/i)=="micromessenger" ? true : false;   
+    return ua.match(/MicroMessenger/i) == "micromessenger" ? true : false;   
 }
 
 let getRootPath = () => {
