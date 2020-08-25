@@ -19,6 +19,12 @@ let getParameter = (param) => {
     return (result == null) ? null : unescape(result[2]);
 }
 
+//判断是否为微信浏览器
+let isWexin = () => {
+    var ua = navigator.userAgent.toLowerCase();
+    return ua.match(/MicroMessenger/i)=="micromessenger" ? true : false;   
+}
+
 let getRootPath = () => {
 	var pathName = window.document.location.pathname;
 	var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
@@ -28,5 +34,6 @@ let getRootPath = () => {
 export {
     randomString,
     getParameter,
+    isWexin,
     getRootPath
 }
