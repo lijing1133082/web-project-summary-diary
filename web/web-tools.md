@@ -20,9 +20,9 @@
 
 10、AntDesign UI框架：https://ant.design/docs/react/getting-started-cn
 
-11、Vue.js 前端框架：https://github.com/vuejs/vue
+11、Vue 前端框架：https://github.com/vuejs/vue
 
-12、React.js 前端框架：https://react.docschina.org/docs/getting-started.html
+12、React 前端框架：https://react.docschina.org/docs/getting-started.html
 
 13、ElementUI 框架：https://element.eleme.cn/#/zh-CN/component/quickstart
 
@@ -32,18 +32,16 @@
 
 16、常用的UI设计网站大集合：https://baijiahao.baidu.com/s?id=1608405142452176461&wfr=spider&for=pc
 
-17、Vue相关内容：https://www.jb51.cc/vue/index_1.html（脚本之家：1-87页）
+17、uni-app 快速上手: https://uniapp.dcloud.io/quickstart
 
-18、uni-app 快速上手: https://uniapp.dcloud.io/quickstart
+18、前端开发文档手册：https://www.bookstack.cn/ 
 
-19、前端开发文档手册：https://www.bookstack.cn/ 
+19、在线图片压缩工具：http://tinypng.com
 
-20、在线图片压缩工具：http://tinypng.com
+20、草料二维码生成器：https://cli.im/
 
-21、草料二维码生成器：https://cli.im/
+21、书栈网（各类技术类文档汇总）： https://www.bookstack.cn/
 
-22、书栈网（各类技术类文档汇总）： https://www.bookstack.cn/
+22、layer弹层：https://layer.layui.com/
 
-23、layer弹层：https://layer.layui.com/
-
-24、Linux命令大全：https://www.linuxcool.com
+23、Linux命令大全：https://www.linuxcool.com
