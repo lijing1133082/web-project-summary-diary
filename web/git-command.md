@@ -54,6 +54,8 @@
 
 25、git log -p -3 查看最近3次提交内容的差异
 
+26、git push --set-upstream origin [branch_name] 将本地分支推送到远程仓库 
+
 
 /*生成git公钥*/
 
