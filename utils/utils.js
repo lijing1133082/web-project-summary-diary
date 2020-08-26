@@ -31,9 +31,21 @@ let getRootPath = () => {
 	return projectName;
 }
 
+//数组去重
+let uniqueArr = (arr) => {
+    var temp = [];
+    for (var i = 0; i< arr.length; i ++) {
+        if(arr[i] != "" && temp.indexOf(arr[i]) == -1){
+            temp.push(arr[i]);
+        }
+    }
+    return temp;
+}
+
 export {
     randomString,
     getParameter,
     isWexin,
-    getRootPath
+    getRootPath,
+    uniqueArr
 }
