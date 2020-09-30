@@ -1,4 +1,4 @@
-[{
+let provinceCityCountyData = [{
 	"value": "11",
 	"label": "北京市",
 	"children": [{
@@ -10713,3 +10713,5 @@
 		}]
 	}]
 }]
+
+export default provinceCityCountyData;
