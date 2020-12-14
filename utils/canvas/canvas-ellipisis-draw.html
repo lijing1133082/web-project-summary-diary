@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas绘图</title>
+</head>
+<body>
+    <canvas id="canvasId" width="300" height="300"></canvas>
+</body>
+<script>
+    var canvasId = document.getElementById("canvasId");
+    var ctx = canvasId.getContext("2d");
+    var x = 150;
+    var y = 150;
+    var a = 30;
+    var b = 20;
+    ctx.beginPath();
+    ctx.moveTo(x + a, y); //起始位置
+    for(var i = 0; i< 2*Math.PI;i += 1/a){
+        ctx.lineTo(x + a*Math.cos(i), y + b*Math.sin(i));
+    }
+    ctx.closePath();
+    ctx.stroke();
+</script>
+</html>
