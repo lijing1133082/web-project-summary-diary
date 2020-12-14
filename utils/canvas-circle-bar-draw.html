@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas绘图</title>
+</head>
+<body>
+    <canvas id="canvasId" width="300" height="300"></canvas>
+</body>
+<script>
+    var canvasId = document.getElementById("canvasId");
+    var ctx = canvasId.getContext("2d");
+    ctx.moveTo(150,150);
+    ctx.beginPath();
+    ctx.arc(150,150,30,0,2*Math.PI,true);
+    ctx.fillStyle="#f00";
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.arc(150,150,20,0,2*Math.PI,true);
+    ctx.fillStyle = '#fff';
+    ctx.fill();
+    ctx.closePath();
+
+</script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas绘图</title>
+</head>
+<body>
+    <canvas id="canvasId" width="300" height="300"></canvas>
+</body>
+<script>
+    var canvasId = document.getElementById("canvasId");
+    var ctx = canvasId.getContext("2d");
+    var linearGradient = ctx.createLinearGradient(0,0,100,100);
+        linearGradient.addColorStop(0,"red");
+        linearGradient.addColorStop(0.5,"blue");
+        linearGradient.addColorStop(1,"green")
+        ctx.fillStyle=linearGradient;
+        ctx.fillRect(0,0,100,100);
+</script>
+</html>
