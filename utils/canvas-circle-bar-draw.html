@@ -11,6 +11,8 @@
 <script>
     var canvasId = document.getElementById("canvasId");
     var ctx = canvasId.getContext("2d");
+
+    //绘制底图
     ctx.moveTo(150,150);
     ctx.beginPath();
     ctx.arc(150,150,30,0,2*Math.PI,true);
@@ -18,6 +20,7 @@
     ctx.fill();
     ctx.closePath();
 
+    //绘制填充图
     ctx.beginPath();
     ctx.arc(150,150,20,0,2*Math.PI,true);
     ctx.fillStyle = '#fff';
