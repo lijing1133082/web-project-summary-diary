@@ -11,13 +11,6 @@
 <script>
     var canvasId = document.getElementById("canvasId");
     var ctx = canvasId.getContext("2d");
-    // 绘制菱形
-    ctx.moveTo(0,50);
-    ctx.lineTo(50,0);
-    ctx.lineTo(100,50);
-    ctx.lineTo(50,100);
-    ctx.lineTo(0,50);
-    ctx.stroke();
 
     //绘制大圆
     ctx.moveTo(200,200);
@@ -28,19 +21,26 @@
     ctx.stroke();
 
     //绘制两个小圆圈
-    ctx.moveTo(175,175);
+    ctx.moveTo(175,185);
     ctx.beginPath();
-    ctx.arc(175,175,5,0,2*Math.PI,true);
+    ctx.arc(175,185,5,0,2*Math.PI,true);
     ctx.closePath();
     ctx.strokeStyle="#000";
     ctx.stroke();
 
-    ctx.moveTo(220,175);
+    ctx.moveTo(220,185);
     ctx.beginPath();
-    ctx.arc(220,175,5,0,2*Math.PI,true);
+    ctx.arc(220,185,5,0,2*Math.PI,true);
     ctx.closePath();
     ctx.strokeStyle="#000";
     ctx.stroke();
+
+    ctx.moveTo(200,205);
+    ctx.beginPath()
+    ctx.arc(200,205,25,0.125*Math.PI,0.875*Math.PI,false);
+    ctx.strokeStyle="#000";
+    ctx.stroke();
+    ctx.closePath();
 
 </script>
 </html>
