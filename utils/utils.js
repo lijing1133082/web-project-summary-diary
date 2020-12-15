@@ -43,10 +43,15 @@ let uniqueArr = (arr) => {
 }
 
 //邮箱验证 
-let isEmail = (str) => { 
+let checkEmail = (str) => { 
     var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/; 
     return reg.test(str); 
 } 
+
+let checkPhone = (str) => {
+    var reg = /^1\d{10}$/;
+    return reg.test(str);
+}
 
 export {
     randomString,
@@ -54,5 +59,6 @@ export {
     isWexin,
     getRootPath,
     uniqueArr,
-    isEmail
+    checkEmail,
+    checkPhone
 }
