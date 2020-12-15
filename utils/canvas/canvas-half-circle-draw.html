@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas绘制饼图</title>
+</head>
+<body>
+    <canvas id="canvasId" width="300" height="300"></canvas>
+</body>
+<script>
+    var canvasId = document.getElementById("canvasId");
+    var ctx = canvasId.getContext("2d");
+
+    var arr = [
+        {color: "#f00",start: 0, end: 135},
+        {color: "#f60",start: 135, end: 225},
+        {color: "#f90",start: 225, end: 360},
+    ];
+
+    for(var i = 0; i< arr.length; i++){
+        let item = arr[i];
+        let startAngle = item.start * Math.PI / 180;
+        let endAngle = item.end * Math.PI / 180;
+
+        ctx.beginPath();
+        ctx.moveTo(150,150);
+        ctx.arc(150,150,30,startAngle,endAngle,false);
+        ctx.fillStyle = item.color;
+        ctx.lineTo(150,150);
+        ctx.fill();
+        ctx.closePath();
+    }
+</script>
+</html>
