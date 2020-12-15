@@ -11,15 +11,15 @@
 <script>
     var canvasId = document.getElementById("canvasId");
     var ctx = canvasId.getContext("2d");
-    var x = 150;
-    var y = 150;
-    var a = 30;
-    var b = 20;
+    var x = 150, y = 150, a = 30, b = 20;
+
     ctx.beginPath();
     ctx.moveTo(x + a, y); //起始位置
-    for(var i = 0; i< 2*Math.PI;i += 1/a){
+
+    for(var i = 0; i< 2*Math.PI; i += 1/a){
         ctx.lineTo(x + a*Math.cos(i), y + b*Math.sin(i));
     }
+    
     ctx.stroke();
     ctx.closePath();
 </script>
