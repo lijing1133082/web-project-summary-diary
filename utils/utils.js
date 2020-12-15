@@ -48,6 +48,7 @@ let checkEmail = (str) => {
     return reg.test(str); 
 } 
 
+//验证手机号
 let checkPhone = (str) => {
     var reg = /^1\d{10}$/;
     return reg.test(str);
