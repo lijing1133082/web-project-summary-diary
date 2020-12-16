@@ -13,32 +13,32 @@
     var ctx = canvasId.getContext("2d");
 
     //绘制大圆
-    ctx.moveTo(200,200);
+    ctx.moveTo(150,150);
     ctx.beginPath();
-    ctx.arc(200,200,50,0,2*Math.PI,true);
+    ctx.arc(150,150,50,0,2*Math.PI,true);
     ctx.closePath();
     ctx.strokeStyle="#000";
     ctx.stroke();
 
     //绘制两个小圆圈
-    ctx.moveTo(175,185);
+    ctx.moveTo(125,135);
     ctx.beginPath();
-    ctx.arc(175,185,5,0,2*Math.PI,true);
+    ctx.arc(125,135,5,0,2*Math.PI,true);
     ctx.closePath();
     ctx.strokeStyle="#000";
     ctx.stroke();
 
-    ctx.moveTo(220,185);
+    ctx.moveTo(170,135);
     ctx.beginPath();
-    ctx.arc(220,185,5,0,2*Math.PI,true);
+    ctx.arc(170,135,5,0,2*Math.PI,true);
     ctx.closePath();
     ctx.strokeStyle="#000";
     ctx.stroke();
 
     //绘制嘴唇
-    ctx.moveTo(200,205);
+    ctx.moveTo(150,155);
     ctx.beginPath();
-    ctx.arc(200,205,25,0.125*Math.PI,0.875*Math.PI,false);
+    ctx.arc(150,155,25,0.125*Math.PI,0.875*Math.PI,false);
     ctx.strokeStyle="#000";
     ctx.stroke();
     ctx.closePath();
