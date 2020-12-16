@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas绘制五角星</title>
+</head>
+<body>
+    <canvas id="canvasId" width="300" height="300"></canvas>
+</body>
+<script>
+    var canvasId = document.getElementById("canvasId");
+    var ctx = canvasId.getContext("2d");
+    var centerX = 150;
+    var centerY = 150;
+
+    ctx.beginPath();
+    for(var i = 0; i< 5; i++){
+        ctx.lineTo(Math.cos((0.1 + i*0.4)*Math.PI)*40 + centerX, -Math.sin((0.1 + i*0.4)*Math.PI)*40 + centerY);
+        ctx.lineTo(Math.cos((0.3 + i*0.4)*Math.PI)*16 + centerX, -Math.sin((0.3 + i*0.4)*Math.PI)*16 + centerY);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = "#F5270B";
+    ctx.stroke();
+</script>
+</html>
